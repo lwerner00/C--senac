@@ -1,0 +1,14 @@
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\bin\Debug\net8.0\SistemaDeCadastroDeFuncionarios.exe
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\bin\Debug\net8.0\SistemaDeCadastroDeFuncionarios.deps.json
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\bin\Debug\net8.0\SistemaDeCadastroDeFuncionarios.runtimeconfig.json
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\bin\Debug\net8.0\SistemaDeCadastroDeFuncionarios.dll
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\bin\Debug\net8.0\SistemaDeCadastroDeFuncionarios.pdb
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\obj\Debug\net8.0\SistemaDeCadastroDeFuncionarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\obj\Debug\net8.0\SistemaDeCadastroDeFuncionarios.AssemblyInfoInputs.cache
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\obj\Debug\net8.0\SistemaDeCadastroDeFuncionarios.AssemblyInfo.cs
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\obj\Debug\net8.0\SistemaDeCadastroDeFuncionarios.csproj.CoreCompileInputs.cache
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\obj\Debug\net8.0\SistemaDeCadastroDeFuncionarios.dll
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\obj\Debug\net8.0\refint\SistemaDeCadastroDeFuncionarios.dll
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\obj\Debug\net8.0\SistemaDeCadastroDeFuncionarios.pdb
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\obj\Debug\net8.0\SistemaDeCadastroDeFuncionarios.genruntimeconfig.cache
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\SistemaDeCadastroDeFuncionarios\obj\Debug\net8.0\ref\SistemaDeCadastroDeFuncionarios.dll
