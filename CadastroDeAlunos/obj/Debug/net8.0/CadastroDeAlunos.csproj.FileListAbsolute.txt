@@ -1,0 +1,14 @@
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\bin\Debug\net8.0\CadastroDeAlunos.exe
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\bin\Debug\net8.0\CadastroDeAlunos.deps.json
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\bin\Debug\net8.0\CadastroDeAlunos.runtimeconfig.json
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\bin\Debug\net8.0\CadastroDeAlunos.dll
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\bin\Debug\net8.0\CadastroDeAlunos.pdb
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\obj\Debug\net8.0\CadastroDeAlunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\obj\Debug\net8.0\CadastroDeAlunos.AssemblyInfoInputs.cache
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\obj\Debug\net8.0\CadastroDeAlunos.AssemblyInfo.cs
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\obj\Debug\net8.0\CadastroDeAlunos.csproj.CoreCompileInputs.cache
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\obj\Debug\net8.0\CadastroDeAlunos.dll
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\obj\Debug\net8.0\refint\CadastroDeAlunos.dll
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\obj\Debug\net8.0\CadastroDeAlunos.pdb
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\obj\Debug\net8.0\CadastroDeAlunos.genruntimeconfig.cache
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\CadastroDeAlunos\obj\Debug\net8.0\ref\CadastroDeAlunos.dll
