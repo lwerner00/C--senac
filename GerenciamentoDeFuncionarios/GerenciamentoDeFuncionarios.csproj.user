@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Frms\FrmEditarFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frms\FrmCadastroDeFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frms\FrmLoginAdm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frms\FrmTelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frms\FrmTelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
