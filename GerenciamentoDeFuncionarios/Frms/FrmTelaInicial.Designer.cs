@@ -50,6 +50,7 @@
             btnSouFuncionario.TabIndex = 1;
             btnSouFuncionario.Text = "Sou funcionário";
             btnSouFuncionario.UseVisualStyleBackColor = true;
+            btnSouFuncionario.Click += btnSouFuncionario_Click;
             // 
             // FrmTelaInicial
             // 

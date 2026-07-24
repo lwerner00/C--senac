@@ -13,8 +13,8 @@ namespace GerenciamentoDeFuncionarios.Banco.Repositories
 
            await ConexaoBanco.CriarConexao().QueryAsync(
                 @"
-                    INSERT INTO Funcionario (Nome, Email, Salario, Sexo, TipoDeContrato, DataDeCadastro, DataDeAtualizacao)
-                    VALUES (@Nome, @Email, @Salario, @Sexo, @TipoDeContrato, @DataDeCadastro, @DataDeAtualizacao)
+                    INSERT INTO Funcionario (Nome, Email, Salario, Sexo, TipoDeContrato, DataDeCadastro, DataDeAtualizacao, Senha)
+                    VALUES (@Nome, @Email, @Salario, @Sexo, @TipoDeContrato, @DataDeCadastro, @DataDeAtualizacao, @Senha)
 
                 ",
                 funcionario
@@ -71,20 +71,24 @@ namespace GerenciamentoDeFuncionarios.Banco.Repositories
         }
 
 
-        internal static async Task <Funcionario> AtualizarFuncionario(int idFuncionario)
+        internal static async Task<Funcionario> AtualizarFuncionario(Funcionario funcionario)
         {
             return await ConexaoBanco.CriarConexao().QueryFirstOrDefaultAsync<Funcionario>(
                 @"
                  UPDATE Funcionario
-                 SET (Nome, Email, Sexo, TipoDeContrato, Salario) = (@Nome, @Email, @Sexo, @TipoDeContrato, @Salario)
-                 WHERE Id = @IdFuncionario
+                 SET
+                        Email = @Email,
+                        Sexo = @Sexo,
+                        TipoDeContrato = @TipoDeContrato,
+                        Salario = @Salario
+                 WHERE Id = @Id;
                  ",
-                new
-                {
-                    idFuncionario = idFuncionario
-                }
+                funcionario
                 );
         }
+
+
+
 
 
     }

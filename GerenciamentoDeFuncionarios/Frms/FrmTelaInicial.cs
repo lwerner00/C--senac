@@ -1,4 +1,6 @@
+using GerenciamentoDeFuncionarios.Banco.Repositories;
 using GerenciamentoDeFuncionarios.Frms;
+using GerenciamentoDeFuncionarios.Modelos;
 
 namespace GerenciamentoDeFuncionarios
 {
@@ -19,6 +21,13 @@ namespace GerenciamentoDeFuncionarios
         private void FrmTelaInicial_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnSouFuncionario_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new FrmLoginFuncionario().ShowDialog();
+            this.Show();
         }
     }
 }

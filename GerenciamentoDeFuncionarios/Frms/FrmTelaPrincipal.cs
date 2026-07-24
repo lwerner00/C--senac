@@ -14,16 +14,34 @@ namespace GerenciamentoDeFuncionarios.Frms
 {
     public partial class FrmTelaPrincipal : Form
     {
-        public FrmTelaPrincipal()
+        private bool EhAdmin;
+        private int IdFuncionarioEditar;
+
+        public FrmTelaPrincipal(bool EhAdm, int idFuncionarioEditar)
         {
             InitializeComponent();
 
+            this.EhAdmin = EhAdm;
+
+            this.IdFuncionarioEditar = idFuncionarioEditar;
+            
             Load += FrmTelaPrincipal_Load;
         }
 
         private async void FrmTelaPrincipal_Load(object? sender, EventArgs e)
         {
             await AtualizarTabela();
+
+            if (EhAdmin)
+            {
+                btnNovo.Visible = true;
+                btnExcluir.Visible = true;
+            }
+            else
+            {
+                btnNovo.Visible = false;
+                btnExcluir.Visible = false;
+            }
         }
 
         private async void btnNovo_Click(object sender, EventArgs e)
@@ -68,8 +86,21 @@ namespace GerenciamentoDeFuncionarios.Frms
         {
             int idFuncionario = (int)dgvFuncionarios.SelectedRows[0].Cells[0].Value;
 
-            new FrmEditarFuncionario(idFuncionario).ShowDialog();
-            await AtualizarTabela();
+            if (EhAdmin || idFuncionario == IdFuncionarioEditar)
+            { 
+
+                new FrmEditarFuncionario(idFuncionario).ShowDialog();
+                await AtualizarTabela();
+            }
+            else
+            {
+                MessageBox.Show("Você só tem permissão para editar o seu próprio cadastro.",
+                    "Acesso Negado",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+            }
+
+            
         }
     }
 }

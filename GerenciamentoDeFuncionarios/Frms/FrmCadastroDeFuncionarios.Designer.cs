@@ -43,6 +43,8 @@
             rbClt = new RadioButton();
             btnSalvar = new Button();
             lblErros = new Label();
+            textBox1 = new TextBox();
+            label4 = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -202,11 +204,31 @@
             lblErros.Size = new Size(0, 28);
             lblErros.TabIndex = 9;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(63, 365);
+            textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Senha123.";
+            textBox1.Size = new Size(293, 31);
+            textBox1.TabIndex = 11;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 10F);
+            label4.Location = new Point(63, 334);
+            label4.Name = "label4";
+            label4.Size = new Size(69, 28);
+            label4.TabIndex = 10;
+            label4.Text = "Senha:";
+            // 
             // FrmCadastroDeFuncionarios
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
+            Controls.Add(label4);
             Controls.Add(lblErros);
             Controls.Add(btnSalvar);
             Controls.Add(groupBox2);
@@ -244,5 +266,7 @@
         private RadioButton rbClt;
         private Button btnSalvar;
         private Label lblErros;
+        private TextBox textBox1;
+        private Label label4;
     }
 }

@@ -26,8 +26,10 @@ namespace GerenciamentoDeFuncionarios.Frms
         {
             if (txtUsuario.Text == "Admin" && txtSenha.Text == "1234")
             {
+                bool EhAdm = true;
+                int idFuncionarioEditar = 0;
                 this.Hide();
-                new FrmTelaPrincipal().ShowDialog();
+                new FrmTelaPrincipal(EhAdm, idFuncionarioEditar).ShowDialog();
                 this.Show();
             }
             else
@@ -37,6 +39,11 @@ namespace GerenciamentoDeFuncionarios.Frms
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Error);
             }
+        }
+
+        private void FrmLoginAdm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -24,3 +24,4 @@ C:\Users\LORENZOWERNERDAROSA\Desktop\C#\GerenciamentoDeFuncionarios\bin\Debug\ne
 C:\Users\LORENZOWERNERDAROSA\Desktop\C#\GerenciamentoDeFuncionarios\obj\Debug\net8.0-windows\GerenciamentoDeFuncionarios.csproj.AssemblyReference.cache
 C:\Users\LORENZOWERNERDAROSA\Desktop\C#\GerenciamentoDeFuncionarios\obj\Debug\net8.0-windows\Gerencia.3ED5EEE9.Up2Date
 C:\Users\LORENZOWERNERDAROSA\Desktop\C#\GerenciamentoDeFuncionarios\obj\Debug\net8.0-windows\GerenciamentoDeFuncionarios.Frms.FrmEditarFuncionario.resources
+C:\Users\LORENZOWERNERDAROSA\Desktop\C#\GerenciamentoDeFuncionarios\obj\Debug\net8.0-windows\GerenciamentoDeFuncionarios.Frms.FrmLoginFuncionario.resources

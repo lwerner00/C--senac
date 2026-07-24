@@ -93,6 +93,7 @@
             Controls.Add(lblUsuario);
             Name = "FrmLoginAdm";
             Text = "Login do Administrador";
+            Load += FrmLoginAdm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

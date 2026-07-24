@@ -66,7 +66,6 @@ namespace GerenciamentoDeFuncionarios.Frms
 
         private async void btnSalvar_Click(object sender, EventArgs e)
         {
-            string nome = txtNome.Text;
             string novoEmail = txtEmail.Text;
             decimal novoSalario = decimal.Parse(txtSalario.Text);
             char novoSexo = rbMasculino.Checked ? 'M' : 'F';
@@ -93,7 +92,9 @@ namespace GerenciamentoDeFuncionarios.Frms
                 FuncionarioAtual.SetSalario(novoSalario);
                 FuncionarioAtual.SetSexo(novoSexo);
                 FuncionarioAtual.SetTipoDeContrato(novoTipoContrato);
-                FuncionarioAtual.DataDeAtualizacao(dataDeAtualizacao);
+                FuncionarioAtual.DataDeAtualizacao = dataDeAtualizacao;
+                FuncionarioAtual = await FuncionarioRepository.AtualizarFuncionario(FuncionarioAtual);
+                this.Close();
 
             }
 

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i68fbZiZZvql1T11cmRN1r0JLB7uY/0baEVlcnAtHxFWGjummDurTURzb5wPRsqzGfVB6MGLZgkvNNkbmbehKg==",
+  "dgSpecHash": "utq3mLZP8CuA7kHZOpL9d8H7SodUn4/tu4w4NR5756O6gQWDZWBAIwwbkWQL+wDfpYYyCLzLMDXBX/zTVZp2aA==",
   "success": true,
   "projectFilePath": "C:\\Users\\LORENZOWERNERDAROSA\\Desktop\\C#\\GerenciamentoDeFuncionarios\\GerenciamentoDeFuncionarios.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\LORENZOWERNERDAROSA\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\LORENZOWERNERDAROSA\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\LORENZOWERNERDAROSA\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\LORENZOWERNERDAROSA\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",

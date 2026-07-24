@@ -10,6 +10,9 @@
     <Compile Update="Frms\FrmLoginAdm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Frms\FrmLoginFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Frms\FrmTelaInicial.cs">
       <SubType>Form</SubType>
     </Compile>

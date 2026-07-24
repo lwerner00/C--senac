@@ -19,7 +19,7 @@ namespace GerenciamentoDeFuncionarios.Modelos
             DataDeCadastro = dataDeCadastro;
         }
 
-        public Funcionario(int id, string nome, string email, char sexo, string tipoDeContrato, decimal salario, DateTime dataDeCadastro, DateTime? dataDeAtualizacao)
+        public Funcionario(int id, string nome, string email, char sexo, string tipoDeContrato, decimal salario, DateTime dataDeCadastro, DateTime? dataDeAtualizacao, string senha)
         {
             Id = id;
             Nome = nome;
@@ -29,6 +29,7 @@ namespace GerenciamentoDeFuncionarios.Modelos
             Salario = salario;
             DataDeCadastro = dataDeCadastro;
             DataDeAtualizacao = dataDeAtualizacao;
+            Senha = senha;
         }
 
         public int Id { get; set; }
@@ -52,6 +53,8 @@ namespace GerenciamentoDeFuncionarios.Modelos
 
         public DateTime? DataDeAtualizacao { get; set; }
 
+        public string Senha { get; private set; }
+
         public void SetEmail(string email)
         {
             Email = email;
@@ -71,5 +74,11 @@ namespace GerenciamentoDeFuncionarios.Modelos
         {
             TipoDeContrato = tipoDeContrato;
         }
+
+        public void SetSenha(string senha)
+        {
+            Senha = senha;
+        }
+
     }
 }
